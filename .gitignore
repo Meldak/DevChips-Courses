@@ -21,6 +21,9 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
+# Not ignore Configure folder
+!Configure/
+
 # Precompiled Headers
 *.gch
 *.pch
@@ -52,3 +55,7 @@ DerivedDataCache/*
 
 # Built data for maps
 *_BuiltData.uasset
+
+# My Content foler (Modify as needed)
+#Content/*
+#!Content/_Main
